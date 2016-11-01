@@ -6,7 +6,7 @@ const ejs = require('ejs');
 const app = express();
 
 // setting views directory
-app.set('views', path.join(_dirname, 'views'));
+app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 // adding route to app that renders the index view
